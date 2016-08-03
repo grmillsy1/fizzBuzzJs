@@ -73,6 +73,6 @@ describe('Airport', function(){
             airport.land(plane)
         }
     expect(function() {airport.land(plane);}).toThrowError('airport is full')
-  })
+  });
 
 });
